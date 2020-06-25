@@ -7,7 +7,7 @@ include("config.php");
 $id_user = isset($_SESSION['id_user']) ? $_SESSION['id_user'] : false;
 
 if ($id_user) {
-    header("location: https://roihanpabw.000webhostapp.com/index1.php");
+    header("location: http://kabupatenriau.tif18e.com/index1.php");
 }
 
 $notif = isset($_GET['notif']) ? $_GET['notif'] : false;
@@ -84,7 +84,7 @@ $notif = isset($_GET['notif']) ? $_GET['notif'] : false;
             <div></div>
         </div>
         <div class="tabs">
-            <form action="<?php echo "https://roihanpabw.000webhostapp.com/Login/proses-masuk.php"?>" method="POST" class="needs-validation" novalidate>
+            <form action="<?php echo "http://kabupatenriau.tif18e.com/Login/proses-masuk.php"?>" method="POST" class="needs-validation" novalidate>
                 <div class="inputs">
                     <div class="input">
                         <input class="form-control" placeholder="Email" type="email" name="email" required>
@@ -107,7 +107,7 @@ $notif = isset($_GET['notif']) ? $_GET['notif'] : false;
                 </div>
                 <input type="submit" class="button" name="submit" value="Masuk">
             </form>
-            <form action="<?php echo "https://roihanpabw.000webhostapp.com/Login/proses-daftar.php"?>" method="POST" class="needs-validation" novalidate>
+            <form action="<?php echo "http://kabupatenriau.tif18e.com/Login/proses-daftar.php"?>" method="POST" class="needs-validation" novalidate>
                 <?php
                 $nama = isset($_GET['nama']) ? $_GET['nama'] : false;
                 ?>
