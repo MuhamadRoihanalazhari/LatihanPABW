@@ -7,7 +7,7 @@ include("config.php");
 $id_user = isset($_SESSION['id_user']) ? $_SESSION['id_user'] : false;
 
 if (!$id_user) {
-    header("location: https://roihanpabw.000webhostapp.com/index.php");
+    header("location: http://kabupatenriau.tif18e.com/index.php");
 }
 
 $notif = isset($_GET['notif']) ? $_GET['notif'] : false;
