@@ -8,4 +8,4 @@ include("assets/function/config.php");
 unset($_SESSION['id_user']);
 
 
-header("location: https://roihanpabw.000webhostapp.com/index.php");
+header("location: http://kabupatenriau.tif18e.com/index.php");
